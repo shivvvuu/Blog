@@ -8,7 +8,7 @@ const Header = () => {
         
         useEffect(() => {
                 getCategories().then((newCategories) => {
-                setCategories(newCategories);
+                setCategories(newCategories)
             });
         }, []);
   return (
